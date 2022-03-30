@@ -13,9 +13,9 @@ export {
 
 const PageDescription = styled.Text`
     font-family: 'Lato-Bold';
-    font-size: 16px;
+    font-size: 18px;
 
-    margin-top: 3%;
+    margin-top: 7%;
 `;
 
 const Banner = styled.View`
@@ -46,7 +46,7 @@ const BannerText = styled.Text`
 `;
 
 const ItemsList = styled.View`
-    background-color: #F7F7F7;
+    background-color: #eeeeee;
 
     height: 13%;
     width: 100%;

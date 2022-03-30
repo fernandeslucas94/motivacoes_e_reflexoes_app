@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, ScrollView } from 'react-native';
+import { TouchableOpacity, ScrollView, StatusBar} from 'react-native';
 import { 
     TitleContainer, 
     Title, 
@@ -22,6 +22,11 @@ import {
 const home_screen = ({ navigation }) => {
   return (
     <PageArea>
+
+        <StatusBar 
+            backgroundColor="#DEDEDE"
+            barStyle="dark-content"
+        />
 
         <TitleContainer>
             <Title>Motivações e Reflexões</Title>

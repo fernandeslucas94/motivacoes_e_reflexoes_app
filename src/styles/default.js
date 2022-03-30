@@ -9,6 +9,13 @@ export {
     BottomMenuImage
 }
 
+const PageArea = styled.SafeAreaView`
+    flex: 1;
+    align-items: center;
+
+    background-color: #e6e6e6;
+`;
+
 const TitleContainer = styled.View`
     width: 100%;
     height: 10%;
@@ -17,16 +24,17 @@ const TitleContainer = styled.View`
 
     background-color: #DEDEDE;
 
-    width: 100%;
+    margin-top: -8px;
 `;
 
 const Title = styled.Text`
     color: #000;
 
-    margin-left: 3%;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: 'Lato-Bold';
-    font-size: 21px;
+    font-size: 22px;
 
     text-transform: uppercase;
 `;
@@ -38,13 +46,6 @@ const Container = styled.View`
     align-items: center;
 `;
 
-const PageArea = styled.SafeAreaView`
-    flex: 1;
-    align-items: center;
-
-    background-color: #ECECEC;
-`;
-
 const BottomMenu = styled.View`
     background-color: #F5F5F5;
 
@@ -53,6 +54,10 @@ const BottomMenu = styled.View`
 
     width: 100%;
     height: 8%;
+
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 0.4px solid grey;
 
     flex-direction: row
     align-items: center;
